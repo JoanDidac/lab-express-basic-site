@@ -25,6 +25,7 @@ body {
 }
 
 .logo {
+    position: relative;
     cursor: pointer;
     width: 12%;
     height: 12%;
@@ -71,6 +72,36 @@ button:hover {
     width: 100%;
     /* position: relative; */
 }
+.worksText {
+    width: 90%;
+    height: 250%;
+    background-color: #e168222a;
+    position: absolute;
+    color:rgba(0, 0, 0, 0.733);
+    left:  130px;
+    top: 300px;
+    right: 30px; 
+    /* bottom: 200px; */
+    /* shadow: 10px 10px 10px black;
+     */
+    
+
+}
+
+.worksText p {
+    font-size: 26px;
+    font-family: monospace;
+    justify-content: center;
+    text-align: left;
+    text-shadow: 0px 0px 10px rgb(212,209,208);
+    padding-left: 100px ;
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    margin: 1000px 100px 100px 100px;
+    line-height: 3;
+
+}
 
 .aboutImg {
     height: 100%;
@@ -78,10 +109,26 @@ button:hover {
     position: static;
 }
 
-.contact {
+.contactImg {
     height: 100%;
     width: 100%;
     /* position: relative; */
+}
+
+.contactText {
+    font-family: monospace;
+    font-size: 26px;
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    align-items: left;
+    line-height: 2;
+}
+
+.contactText p {
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 50px;
 }
 
 .homeImg {
@@ -91,7 +138,7 @@ button:hover {
 }
 
 .homeText {
-    
+
     background-color: #24252a0f;
     position: absolute;
     color:rgba(201, 187, 168, 0.798);
