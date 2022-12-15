@@ -1,6 +1,16 @@
 body {
-    background-color: darkred;
-    /* background-image: url('/lab-express-basic-site/public/img/Tommy\ Emmanuel\ 2.jpeg'); */
-    width: auto;
-    height: auto;
+   
+}
+
+#landing {
+    /* position: relative; */
+    width: cover;
+    height: cover ;
+    
+}
+
+.landing h1 {
+    color: antiquewhite;
+    position: absolute;
+    margin-top: 200px;
 }
