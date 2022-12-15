@@ -24,27 +24,6 @@ app.get('/contact', (req, res, next) => {
     res.status(200).sendFile(__dirname + '/views/contact.html')
 })
 
-// app.use((req,res,next)=> {
-//     console.log('jellou')
-//     next();
-// })
-
-app.get('/about',(req,res) => {
-    res.send('about')
-})
-
-app.get('/home',(req,res) => {
-    res.send('home')
-})
-
-app.get('/works', (req,res) => {
-    res.send('works')
-})
-
-app.get('/contact', (req,res) => {
-    res.send('call me maybe')
-})
-
 app.get('/api',(req,res) => {
     const musicians = [
         {name:'Jimmy', surname: 'Hendrix', age: 27},
