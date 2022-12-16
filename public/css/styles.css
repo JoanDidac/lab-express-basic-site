@@ -184,3 +184,31 @@ button:hover {
       box-shadow: 0 0 20px #fff;
     }
   }
+  
+  .indexText h1{
+    
+    /* margin-left:1200px; */
+    font-size: 40px;
+    position: absolute;
+    font-family: 'Futura';
+    color: antiquewhite;
+    
+  }
+.containerIndex {
+    position: relative;
+}
+
+.ctaIndex button {
+    box-shadow: 0 0 10px #fff;
+    animation: glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px #fff;
+    }
+    to {
+      box-shadow: 0 0 40px #fff;
+    }
+  }
+
