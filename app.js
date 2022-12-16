@@ -27,6 +27,5 @@ app.get('/api',(req,res) => {
     res.json(musicians);
 })
 
-app.listen(3002, () => {console.log('app and running on 3000 Sir!')});
+app.listen(3006, () => {console.log('app and running on 3006 Sir!')});
  //script dev not found
- //
